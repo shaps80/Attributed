@@ -1,18 +1,18 @@
-// swift-tools-version:5.5
+// swift-tools-version:5.3
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
 let package = Package(
-    name: "AttributedMarkdown",
+    name: "Attributed",
     platforms: [
         .iOS(.v13),
         .macOS(.v10_15)
     ],
     products: [
         .library(
-            name: "AttributedMarkdown",
-            targets: ["AttributedMarkdown"]
+            name: "Attributed",
+            targets: ["Attributed"]
         ),
     ],
     dependencies: [
@@ -20,7 +20,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "AttributedMarkdown",
+            name: "Attributed",
             dependencies: [
                 .product(name: "Markdown", package: "swift-markdown")
             ]
