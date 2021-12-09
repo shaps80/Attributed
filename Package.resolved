@@ -14,7 +14,7 @@
         "package": "swift-markdown",
         "repositoryURL": "https://github.com/apple/swift-markdown",
         "state": {
-          "branch": "swift-DEVELOPMENT-SNAPSHOT-2021-12-06-a",
+          "branch": "c9dbdb5",
           "revision": "c9dbdb506d404216b7015131436a49dee2de9ae2",
           "version": null
         }
